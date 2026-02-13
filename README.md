@@ -3,8 +3,10 @@
 📘 PROJECT REPORT
 
 1️⃣ Project Overview
+
 The Dynamic AI Chatbot is an intelligent conversational system designed to understand natural language queries and respond intelligently. It uses Natural Language Processing (NLP) and Machine Learning techniques to recognize user intent, extract important information, analyze sentiment, and generate contextual responses.
 The chatbot can be integrated into web platforms, customer support systems, and virtual assistant applications.
+
 
 
 2️⃣ Objectives
@@ -16,12 +18,16 @@ Maintain contextual memory
 Provide real-time API-based communication
 
 
+
 3️⃣ System Architecture
 
 User → FastAPI Backend → NLP Processing → Intent Classifier → Entity Extraction → Response Generator → SQLite Database → Analytics
 
 
+
 4️⃣ Key Features
+
+
 
 🔹 Intent Recognition
 Uses TF-IDF and Logistic Regression to classify user queries into predefined intents.
@@ -52,6 +58,7 @@ Average response latency
 User feedback
 
 
+
 5️⃣ Technologies Used
 Technology	Purpose
 🐍 Python	Core development
@@ -62,6 +69,7 @@ Technology	Purpose
 🔌 WebSockets	Real-time communication
 
 
+
 6️⃣ Database Structure
 The system stores:
 Session details
@@ -70,6 +78,8 @@ Intent and sentiment results
 Feedback records
 Tool execution logs
 
+
+
 7️⃣ Applications
 
 Customer Suppor Automation
@@ -77,6 +87,8 @@ E-commerce Chat Assistant
 Banking Virtual Assistant
 IT Helpdesk Support
 FAQ Automation
+
+
 
 8️⃣ Conclusion
 
